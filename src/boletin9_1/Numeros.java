@@ -13,8 +13,8 @@ public class Numeros {
     }
    //metd.
     public void numeros(){
-        int num,cp=0, cn=0, cc=0;
-        for (int i=1; i<10; i++){
+        int num,cp=0, cn=0, cc=0;//Contador para os positivos, negativos e os ceros
+        for (int i=1; i<10; i++){ 
             num=Integer.parseInt(JOptionPane.showInputDialog("Introduce numero : "));
             
         
